@@ -68,7 +68,6 @@ function selectPrice(name){
         return price;
     }
 }
-
 function zaikoKanri(num){
     if(drinkData[num].zaiko == 0){
         return 0;

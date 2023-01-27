@@ -10,7 +10,7 @@ exports.getline = function(msg){
     return new Promise((resolve,reject)=>{
         read.question(msg,(answer)=>{
             resolve(answer);
-            read.close;
+            read.close();
         })
     })
 };
